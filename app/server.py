@@ -8,7 +8,7 @@ from io import BytesIO
 from fastai import *
 from fastai.vision import *
 
-export_file_url = 'https://drive.google.com/uc?export=download&id=ttps://drive.google.com/open?id=11go6JQZWY5Kh8YDzlSHYzaH84dqMcQF'
+export_file_url = 'https://drive.google.com/uc?export=download&id=11go6JQZWY5Kh8YDzlSHYzaH84dqMcQFn'
 export_file_name = 'Birdstest.pkl'
 
 classes = ['amsel', 'blaumeise', 'buchfink', 'buntspecht', 'distelfink', 'dompfaff', 'eichelhäher', 'elster', 'fitis', 

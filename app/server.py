@@ -8,10 +8,14 @@ from io import BytesIO
 from fastai import *
 from fastai.vision import *
 
-export_file_url = 'https://www.dropbox.com/s/v6cuuvddq73d1e0/export.pkl?raw=1'
-export_file_name = 'export.pkl'
+export_file_url = 'https://drive.google.com/open?id=11HsIAedx5FB7_7inBDUS8ZThSb29YDn3'
+export_file_name = 'stage-1.pkl'
 
-classes = ['black', 'grizzly', 'teddys']
+classes = ['amsel', 'blaumeise', 'buchfink', 'buntspecht', 'distelfink', 'dompfaff', 'eichelhäher', 'elster', 'fitis', 
+           'gartenrotschwanz', 'girlitz', 'goldammer', 'grauschnäpper', 'grünfink', 'heckenbraunelle', 'kohlmeise', 
+           'mauersegler', 'mönchsgrasmücke', 'ringeltaube', 'rotkehlchen', 'schwanzmeise', 'singdrossel', 'tannenmeise', 
+           'türkentaube', 'vogel_star', 'zaunkönig', 'zilpzalp']
+
 path = Path(__file__).parent
 
 app = Starlette()

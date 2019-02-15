@@ -8,8 +8,8 @@ from io import BytesIO
 from fastai import *
 from fastai.vision import *
 
-export_file_url = 'https://drive.google.com/uc?export=download&id=ttps://drive.google.com/open?id=11JLqGB0EyKRyhYU1PXQc_oSopHVneYq'
-export_file_name = 'Birds_Classifier_Test.pkl'
+export_file_url = 'https://drive.google.com/uc?export=download&id=ttps://drive.google.com/open?id=16huyHyGurRdlKNy7CYgv2RnvEkHfzdZ'
+export_file_name = 'stage-1.pth'
 
 classes = ['amsel', 'blaumeise', 'buchfink', 'buntspecht', 'distelfink', 'dompfaff', 'eichelhäher', 'elster', 'fitis', 
            'gartenrotschwanz', 'girlitz', 'goldammer', 'grauschnäpper', 'grünfink', 'heckenbraunelle', 'kohlmeise', 
